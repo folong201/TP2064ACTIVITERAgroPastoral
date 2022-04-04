@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(212, 149, 32);
+    border-radius: 65px 15px;
 }
 #top li{
     display: inline;
@@ -33,7 +34,7 @@
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    width: 300px;
+    width: 301px;
 }
 .navItems
 {
@@ -87,7 +88,7 @@ section{
 }
 .column{
     margin: 2%;
-    background-color: rgb(207, 158, 22);
+    background-color: rgb(212, 149, 32);
     color: aliceblue;
     width: calc(100%/3);
 }
@@ -102,7 +103,7 @@ section{
     text-decoration: inherit;
 }
 .footer{
-    background-color: rgb(187, 128, 40);
+    background-color: rgb(212, 149, 32);
 }
 .column h4
 {
