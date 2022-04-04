@@ -124,7 +124,7 @@ body{
     text-align: baseline;
     margin-left: 2%;
     padding: 1%;
-    border: 2px solid blue;
+    border: 2px solid rgb(14, 184, 36);
     box-shadow:inset;
     border-radius: 25px;
 }
@@ -143,9 +143,19 @@ there are modification of the button
     color: rgb(255, 255, 255);
     border-radius: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(26, 26, 126);
+    background-color:rgb(14, 184, 36);
     border-radius: 60px;
     min-width: 150px;
     height: 40px;
     float: right;
+}
+
+
+/*
+style of page 1*/
+
+.handel{
+    background-image: url("bg.jpg") 500px 500px;
+    min-height: 500px;
+    
 }
