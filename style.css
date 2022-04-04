@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:   Roboto, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+}
+.logo
+{
+    background-image: url("1.jpg");
+    max-width: 150px;
+}
+
+.container
+{
+    margin: 10px 4% ;
+    margin-top: none;
+    font-size: large;
+    height: auto;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(212, 149, 32);
+}
+#top li{
+    display: inline;
+    list-style: none;
+    color: blueviolet;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    width: 300px;
+}
+.navItems
+{
+    position: relative;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.title{
+    padding: auto;
+    color: white    ;
+}
+.subtitle{
+    padding: 3%;
+}
+li a:hover{
+    color: green;
+    font-size: 40px;
+    zoom: 130%;
+    transition: 0.75s;
+    border-bottom: 4px solid green;
+    background-color: rgba(236, 234, 226, 0.801);
+}
+section{
+    padding-top: 02% 0px ;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.subtitle{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: white;
+}
+
+.footer
+{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+.column{
+    margin: 2%;
+    background-color: rgb(207, 158, 22);
+    color: aliceblue;
+    width: calc(100%/3);
+}
+.column li{
+    display: flexbox;
+    justify-content: flex-end;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: inherit;
+}
+.footer{
+    background-color: rgb(187, 128, 40);
+}
+.column h4
+{
+    font-size: 35px;
+}
+.E
+{
+    display: flex;
+}
+.cartImage{
+    max-width: 350px;
+}
+body{
+    background-image: url(carrots.jpg);
+}
+.cart
+{
+    text-align: baseline;
+    margin-left: 2%;
+    padding: 1%;
+    border: 2px solid blue;
+    box-shadow:inset;
+    border-radius: 25px;
+}
+
+
+
+/*
+there are modification of the button
+*/
+.button
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(26, 26, 126);
+    border-radius: 60px;
+    min-width: 150px;
+    height: 40px;
+    float: right;
+}

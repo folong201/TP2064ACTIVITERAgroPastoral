@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:   Roboto, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container
+{
+    margin: 10px 5% ;
+    margin-top: none;
+    font-size: large;
+
+
+}
