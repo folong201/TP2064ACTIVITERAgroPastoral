@@ -2,7 +2,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family:   Roboto, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-    color: aliceblue;
+    color: green;
 }
 .logo
 {
@@ -149,7 +149,10 @@ there are modification of the button
     height: 40px;
     float: right;
 }
-
+.cart
+{
+    color: black;
+}
 
 /*
 style of page 1*/
@@ -161,4 +164,38 @@ style of page 1*/
     font-weight: 800;
     font-size: 060px;
     
+    
 }
+.bande
+{
+    display: flex;
+    border-radius: 50px 150px;
+    border: 2px solid green;
+    padding: 10px;
+}
+.text
+{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: baseline;
+}
+.image
+{
+    max-width: 700px;
+    max-height: 700px;
+    justify-content: flex-end;
+    margin: 10px;
+    border-radius: 50px 150px 10px ;
+}
+/* .bigUp
+{
+    color: green;
+    min-height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+} */
